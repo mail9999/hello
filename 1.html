@@ -5,6 +5,33 @@
     <title>Title</title>
 </head>
 <body>
-<div>你好</div>
+<div id="div">你好</div>
+<div id="di">你好</div>
 </body>
+<!--<script src="jquery.min.js"></script>-->
+<script>
+//    var div = document.getElementById('div');
+//    var a = document.createElement('div');
+//    a.innerHTML = '来了';
+//    div.appendChild(a);
+//    var c = document.createElement('div');
+//    c.innerHTML = '别走了';
+//    div.replaceChild(c,div.lastChild);
+//    div.removeChild(c);
+    function a() {
+        this.bb =function () {
+            console.log('a');
+        }
+    }
+    function c() {
+        this.dd =function () {
+            console.log('c');
+        }
+    }
+    var aaa = new a();
+    var ccc = new c();
+    a.prototype = ccc;
+    var aaaa = new a();
+    console.log(aaaa.dd());
+</script>
 </html>
