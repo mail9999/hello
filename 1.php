@@ -9,7 +9,7 @@ echo '123';
 
 class Username
 {
-    public function name()
+    public function nam()
     {
         
     }
