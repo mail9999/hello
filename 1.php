@@ -6,4 +6,11 @@
  * Time: 下午3:48
  */
 echo '123';
-echo '你好';
+
+class Username
+{
+    public function name()
+    {
+        
+    }
+}
