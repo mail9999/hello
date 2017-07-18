@@ -6,7 +6,7 @@
  * Time: 下午3:48
  */
 echo '123';
-
+echo 'nihao';
 class Username
 {
     public function nam()
@@ -14,3 +14,4 @@ class Username
         
     }
 }
+echo '你好';
